@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 COPY ./ /gpdb_src/
 
 WORKDIR /
-ENV DEBIAN_FRONTEND=noninteractive PATH=$PATH:/usr/local/gptools/bin
+ENV DEBIAN_FRONTEND=noninteractive PATH=$PATH:/usr/local/gptools/bin TZ=Asia/Shanghai LANG=en_US.UTF-8
 
 RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 && ldconfig \
