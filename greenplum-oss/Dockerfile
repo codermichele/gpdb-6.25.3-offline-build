@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 COPY ./ /gpdb_src/
 
 WORKDIR /
-ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive PATH=$PATH:/usr/local/gptools/bin
 
 RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 && ldconfig \
@@ -41,4 +41,7 @@ RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 && make -j8 install \
 # create init file for module pygresql
 && touch /usr/local/greenplum-db/lib/python/pygresql/__init__.py \
-&& sed -ri 's/(GSSAPIAuthentication) yes/#\1 yes/' /etc/ssh/ssh_config
+&& sed -ri 's/(GSSAPIAuthentication) yes/#\1 yes/' /etc/ssh/ssh_config \
+# install gpbackup and gprestore
+&& cp -r /gpdb_src/gptools /usr/local/ \
+&& chmod 0755 /usr/local/gptools/bin/*
