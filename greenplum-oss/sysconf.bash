@@ -3,7 +3,6 @@
 apt-get update
 apt-get install -y \
 liblocale-gettext-perl \
-#
 libxau6 \
 libbsd0 \
 libxdmcp6 \
@@ -250,6 +249,7 @@ libkrb5-dev \
 libyaml-dev \
 locales-all
 
+sub_path="/gpdb_src/greenplum-oss"
 #through pip install
 #build whl
 for tarball in `cat ${sub_path}/whl_build_order.txt`;do
