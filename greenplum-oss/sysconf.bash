@@ -225,15 +225,9 @@ libzstd-dev \
 manpages-dev \
 net-tools \
 ninja-build \
-python-all \
+python2.7 \
 python2.7-dev \ 
-python-all-dev \
-python-six \
-python-decorator \
-python2-pip-whl \
 python-pip \
-python-pkg-resources \
-python-setuptools \
 zlib1g-dev \
 libkrb5-dev \
 libyaml-dev \
