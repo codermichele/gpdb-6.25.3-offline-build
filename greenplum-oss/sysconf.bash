@@ -43,7 +43,7 @@ libreadline8 \
 libsqlite3-0 \
 libpython2.7-stdlib \
 python2.7 \
-libpython-stdlib \
+libpython2-stdlib \
 openssl \
 ca-certificates \
 libapparmor1 \
