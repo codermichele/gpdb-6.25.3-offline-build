@@ -26,7 +26,7 @@ libx11-6 \
 libsigsegv2 \
 m4 \
 flex \
-liblzo2 \
+liblzo2-2 \
 perl-modules-5.34 \
 libgdbm6 \
 libgdbm-compat4 \
