@@ -21,7 +21,6 @@ perl-base \
 perl_5.34 \
 libpython2.7-minimal \
 python2.7-minimal \
-#
 libssl3 \
 mime-support \
 libexpat1 \
@@ -31,7 +30,6 @@ libsqlite3-0 \
 libpython2.7-stdlib \
 python2.7 \
 libpython-stdlib \
-#
 openssl \
 ca-certificates \
 libapparmor1 \
@@ -71,7 +69,6 @@ geoip-database \
 krb5-locales \
 libedit2 \
 libpsl5 \
-#
 libxmuu1 \
 manpages \
 openssh-client \
@@ -104,8 +101,6 @@ libasan8 \
 liblsan0 \
 libtsan0 \
 libubsan1 \
-#
-#
 libquadmath0 \
 libgcc-12-dev \
 libgcc-s1 \
@@ -173,7 +168,6 @@ libkdb5-10 \
 libkadm5srv-mit12 \
 libevent-2.1-7 \
 libverto-libevent1 \
-#
 krb5-config \
 libkadm5clnt-mit12 \
 krb5-user \
@@ -207,7 +201,6 @@ libperl-dev \
 libpq5 \
 libpython2.7 \
 libpython2.7-dev \
-#
 libpython-all-dev \
 libtinfo-dev \
 libreadline-dev \
@@ -220,30 +213,13 @@ net-tools \
 ninja-build \
 python-all \
 python2.7-dev \ 
-# 
 python-all-dev \
-#
-#
-#
-#
-#
-#
 python-six \
-#
-#
 python-decorator \
-#
-#
-#
-#
-#
 python2-pip-whl \
 python-pip \
 python-pkg-resources \
-#
 python-setuptools \
-#
-#
 zlib1g-dev \
 libkrb5-dev \
 libyaml-dev \
