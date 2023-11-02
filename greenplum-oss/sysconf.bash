@@ -212,7 +212,6 @@ net-tools \
 ninja-build \
 python-all \
 python2.7-dev \ 
-python-decorator \
 python2-pip-whl \
 python-pip \
 python-pkg-resources \
