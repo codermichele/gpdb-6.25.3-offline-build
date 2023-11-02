@@ -22,17 +22,17 @@ libbsd0 \
 libxdmcp6 \
 libxcb1 \
 libx11-data \
-libx11-6 \
+libx11 \
 libsigsegv2 \
 m4 \
 flex \
-liblzo2-2 \
+liblzo2 \
 perl-modules-5.34 \
 libgdbm6 \
 libgdbm-compat4 \
 libperl5.34 \
 perl-base \
-perl \
+perl_5.34 \
 libpython2.7-minimal \
 python2.7-minimal \
 libssl3 \
@@ -43,6 +43,7 @@ libreadline8 \
 libsqlite3-0 \
 libpython2.7-stdlib \
 python2.7 \
+libpython-stdlib \
 openssl \
 ca-certificates \
 libapparmor1 \
@@ -225,15 +226,18 @@ manpages-dev \
 net-tools \
 ninja-build \
 python-all \
-python2.7 \
-python2.7-dev \
+python2.7-dev \ 
+python-all-dev \
+python-six \
+python-decorator \
+python2-pip-whl \
 python-pip \
+python-pkg-resources \
+python-setuptools \
 zlib1g-dev \
 libkrb5-dev \
 libyaml-dev \
-locales-all \
-openssh-client \ 
-openssh-server 
+locales-all 
 
 sub_path="/gpdb_src/greenplum-oss"
 #through pip install
