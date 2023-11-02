@@ -211,7 +211,9 @@ manpages-dev \
 net-tools \
 ninja-build \
 python-all \
-python2.7-dev \ 
+python2.7 \
+python2.7-dev \
+python-pip \
 zlib1g-dev \
 libkrb5-dev \
 libyaml-dev \
