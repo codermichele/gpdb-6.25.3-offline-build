@@ -22,7 +22,7 @@ libbsd0 \
 libxdmcp6 \
 libxcb1 \
 libx11-data \
-libx11 \
+libx11-6 \
 libsigsegv2 \
 m4 \
 flex \
