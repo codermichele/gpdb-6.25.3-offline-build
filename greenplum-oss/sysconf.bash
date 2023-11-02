@@ -217,7 +217,9 @@ python-pip \
 zlib1g-dev \
 libkrb5-dev \
 libyaml-dev \
-locales-all
+locales-all \
+openssh-client \ 
+openssh-server 
 
 sub_path="/gpdb_src/greenplum-oss"
 #through pip install
