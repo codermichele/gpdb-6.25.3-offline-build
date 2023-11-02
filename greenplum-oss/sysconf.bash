@@ -212,7 +212,6 @@ net-tools \
 ninja-build \
 python-all \
 python2.7-dev \ 
-python-pip \
 python-pkg-resources \
 python-setuptools \
 zlib1g-dev \
