@@ -32,7 +32,7 @@ libgdbm6 \
 libgdbm-compat4 \
 libperl5.34 \
 perl-base \
-perl_5.34 \
+perl \
 libpython2.7-minimal \
 python2.7-minimal \
 libssl3 \
